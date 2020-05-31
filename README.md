@@ -26,3 +26,38 @@ Utilize algum client com o insomnia para fazer as requests de **query** ou de **
 
 - `http://127.0.0.1:5000/graphql-query`
 - `http://127.0.0.1:5000/graphql-mutation`
+
+### Exemplo JSON de query
+
+```json
+{
+  allPosts{
+    edges{
+      node{
+        title
+        author{
+          name
+          email
+        }
+      }
+    }
+  }
+}
+```
+
+### Exemplo de JSON de mutation
+
+```json
+
+mutation {
+  savePost(email:"cse.sadhan@gmail.com", title:"Title 2", body:"Blog post 2") {
+    post{
+      title
+      body
+      author{
+        email
+      }
+    }
+  }
+}
+```
