@@ -27,7 +27,7 @@ Utilize algum client com o insomnia para fazer as requests de **query** ou de **
 - `http://127.0.0.1:5000/graphql-query`
 - `http://127.0.0.1:5000/graphql-mutation`
 
-### Exemplo JSON de query
+### Exemplo de query
 
 ```
 {
@@ -45,7 +45,7 @@ Utilize algum client com o insomnia para fazer as requests de **query** ou de **
 }
 ```
 
-### Exemplo de JSON de mutation
+### Exemplo de mutation
 
 ```
 mutation {
