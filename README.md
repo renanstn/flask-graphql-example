@@ -29,7 +29,7 @@ Utilize algum client com o insomnia para fazer as requests de **query** ou de **
 
 ### Exemplo JSON de query
 
-```json
+```
 {
   allPosts{
     edges{
@@ -47,8 +47,7 @@ Utilize algum client com o insomnia para fazer as requests de **query** ou de **
 
 ### Exemplo de JSON de mutation
 
-```json
-
+```
 mutation {
   savePost(email:"cse.sadhan@gmail.com", title:"Title 2", body:"Blog post 2") {
     post{
